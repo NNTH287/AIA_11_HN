@@ -1,7 +1,7 @@
 # Overview
 Cung cấp nền tảng phỏng vấn mô phỏng có trí tuệ nhân tạo, nơi ứng viên có thể:
-- Bộ câu hỏi được cá nhân hoá dựa trên CV và năng lực hiện tại.
 - Trả lời câu hỏi phỏng vấn qua chat hoặc giọng nói.
+- Bộ câu hỏi được cá nhân hoá dựa trên CV và năng lực hiện tại.
 - AI interviewer sinh câu hỏi, phân tích câu trả lời, và chọn câu hỏi tiếp theo dựa vào ngữ cảnh, vector DB, và dữ liệu kỹ năng. 
 - Kết thúc phỏng vấn, AI interviewer sẽ đánh giá và đưa ra phản hồi chi tiết.
 

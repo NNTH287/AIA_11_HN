@@ -15,7 +15,7 @@ Cung cấp nền tảng phỏng vấn mô phỏng có trí tuệ nhân tạo, n�
 | **5**  | **🎤 Voice Answer Component (Speech-to-Text)**           | Cho phép ứng viên trả lời bằng giọng nói: <br>• Thu âm & chuyển sang văn bản.<br>• Hỗ trợ đa ngôn ngữ (EN, VI).<br>• Gửi transcript đến AI Interviewer Engine.                                   | Azure Speech-to-Text API                           |
 | **6**  | **🗣️ AI Voice Response Component (Text-to-Speech)**     | Cho phép AI interviewer phản hồi hoặc đặt câu hỏi bằng giọng nói: <br>• Chuyển văn bản sang âm thanh tự nhiên.<br>• Hỗ trợ lựa chọn giọng nói & ngôn ngữ.<br>• Phát audio realtime cho ứng viên. | Edge TTS (Microsoft Text-to-Speech)                |
 | **7**  | **Analytics & Feedback Service**                         | Thu thập dữ liệu trả lời, đánh giá năng lực, tổng hợp phản hồi & báo cáo cuối buổi phỏng vấn.                                                                                                    | LangChain + OpenAI GPT-4 / Claude / Llama 3 để phân tích & sinh phản hồi. scikit-learn / spaCy để đánh giá ngôn ngữ và cảm xúc.                       |
-| **8** | **Question Bank Service**           | Lưu trữ bộ câu hỏi phỏng vấn (technical, behavioral, situational). Cho phép tagging, versioning, fine-tuning mô hình.                                                                            | Spring Boot / .NET + PostgreSQL                   |
+| **8** | **Question Bank Service**           | Lưu trữ bộ câu hỏi phỏng vấn (technical, behavioral, situational). Cho phép tagging, versioning, fine-tuning mô hình.                                                                            | Python + PostgreSQL                   |
 
 # Main flows
 ## 1. Giai đoạn Chuẩn bị (Scan CV & sinh chủ đề)
